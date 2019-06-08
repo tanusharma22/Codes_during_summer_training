@@ -1,0 +1,14 @@
+Q-history with date and time?
+
+A-HISTTIMEFORMAT="%d/%m/%y %T ".
+
+Q-how to update history if entered manually in /home/adhoc/.bash_history(without reboot and logout)?
+
+A-open the file .bash_history through gedit
+and update it manually.
+
+Q-How create multiple files and folder at once in windows? 
+
+A-type in command line>
+
+                                                     for /L %i in (1,1,5) do (mkdir a%i)
